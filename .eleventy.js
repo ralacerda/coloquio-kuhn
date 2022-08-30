@@ -15,6 +15,15 @@ const imageShortcode = async (
     formats: formats,
     outputDir: "dist/img/",
     urlPath: "/coloquio-kuhn/img",
+    filenameFormat: function (id, src, width, format, options) {
+      // id: hash of the original image
+      // src: original image path
+      // width: current width in px
+      // format: current file format
+      // options: set of options passed to the Image call
+
+      return `f${id}-${width}.${format}`;
+    },
   });
 
   const imageAttributes = {
@@ -32,6 +41,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/img/hero");
   eleventyConfig.addPassthroughCopy("src/img/icons");
   eleventyConfig.addPassthroughCopy("src/img/logos");
+  eleventyConfig.addPassthroughCopy("src/.nojekyll");
 
   eleventyConfig.addPassthroughCopy({
     "./node_modules/alpinejs/dist/cdn.js": "alpine.js",
