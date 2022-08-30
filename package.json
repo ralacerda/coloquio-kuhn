@@ -17,6 +17,7 @@
   "dependencies": {
     "@11ty/eleventy-img": "^2.0.1",
     "@alpinejs/collapse": "^3.10.3",
-    "alpinejs": "^3.10.3"
+    "alpinejs": "^3.10.3",
+    "gh-pages": "^4.0.0"
   }
 }
