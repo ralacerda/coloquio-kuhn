@@ -5,23 +5,45 @@ title: Programação
 
 <section class="container">
   {% title "Programação" %}
-
-  <div class="flex flex-wrap text-left place-items-start justify-evenly">
+  <div class="mx-auto">
     {% for day in programacao %}
-    <div class="mb-8">
-      <h2 class="font-semibold text-lg text-center mb-4">{{day.nome}}</h2>
-      <table class="mx-auto">
-        <tbody>
-          {% for evento in day.eventos %}
-          <tr class="border-b">
-            <td class="text-lg px-8 py-1 font-semibold w-12">
-              {{evento.horario}}
-            </td>
-            <td class="text-lg px-8 py-1 w-80">{{evento.nome}}</td>
-          </tr>
-          {% endfor%}
-        </tbody>
-      </table>
+    <div class="mb-40">
+      <h2 class="pl-6 font-bold text-3xl mb-10 w-fit mx-auto text-gray-800">
+        {{day.nome}}
+      </h2>
+      {% for evento in day.eventos %}
+      <div class="mb-20">
+        <div class="pl-6 text-lg mb-2 font-medium border-b-2 items-end">
+          <div class="mb-2">
+            <span class="block lg:inline mr-3 text-slate-500"
+              >{{evento.horario}}</span
+            >
+            <span class="block lg:inline text-slate-700">{{evento.nome}}</span>
+          </div>
+          <div class="mb-1 uppercase text-3xl font-semibold justify-self-start">
+            {{evento.titulo}}
+          </div>
+        </div>
+        <div class="pl-6">
+          <div class="mb-4">
+            {% if evento.coord %}
+            <span class="text-slate-400">Coordernado por</span>
+            {% endif %} {{evento.coord}}
+          </div>
+          {% for palestra in evento.palestras %}
+          <div class="mb-8">
+            <div class="text-2xl font-medium mb-2 text-gray-700">
+              {{palestra.titulo}}
+            </div>
+            {% for autor in palestra.autores%}
+            <div class="mb-1">{{autor}}</div>
+            {% endfor %}
+          </div>
+
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor%}
     </div>
     {% endfor%}
   </div>
