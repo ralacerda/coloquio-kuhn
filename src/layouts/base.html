@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include "head.html" %}
+
+  <body class="bg-kuhn-white min-h-screen flex flex-col">
+    {% include "nav.html" %}
+    <div class="flex-grow">{{ content | safe }}</div>
+  </body>
+
+  <footer>{% include "footer.html" %}</footer>
+</html>

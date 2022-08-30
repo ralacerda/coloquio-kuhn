@@ -1,0 +1,29 @@
+<head>
+  <title>
+    {{ 'Colóquio Thomas Kuhn'}} {% if title != "Home" %} {{[" · ", title] |
+    join}} {% endif %}
+  </title>
+
+  <meta name="title" content="Colóquio Thomas Kuhn" />
+  <meta
+    name="description"
+    content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+  />
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+  />
+
+  {% include "head/icon.html" %} {% include "head/socialmedia.html" %}
+
+  <link rel="stylesheet" href="{{ '/style.css' | url }}" />
+  <script
+    defer
+    src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"
+  ></script>
+
+  <script src="{{ '/alpine.js' | url }}" defer></script>
+</head>

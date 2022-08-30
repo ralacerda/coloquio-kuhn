@@ -1,0 +1,28 @@
+---
+layout: base
+title: Programação
+---
+
+<section class="container">
+  {% title "Programação" %}
+
+  <div class="flex flex-wrap text-left place-items-start justify-evenly">
+    {% for day in programacao %}
+    <div class="mb-8">
+      <h2 class="font-semibold text-lg text-center mb-4">{{day.nome}}</h2>
+      <table class="mx-auto">
+        <tbody>
+          {% for evento in day.eventos %}
+          <tr class="border-b">
+            <td class="text-lg px-8 py-1 font-semibold w-12">
+              {{evento.horario}}
+            </td>
+            <td class="text-lg px-8 py-1 w-80">{{evento.nome}}</td>
+          </tr>
+          {% endfor%}
+        </tbody>
+      </table>
+    </div>
+    {% endfor%}
+  </div>
+</section>

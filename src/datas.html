@@ -1,0 +1,18 @@
+---
+layout: base
+title: Datas
+---
+
+<section class="container">
+  {% title "Datas Importantes" %}
+  <table class="mx-auto">
+    <tbody>
+      {% for data in datas%}
+      <tr class="border-b sm:border-none">
+        <td class="text-lg px-8 py-1 font-semibold">{{data.event}}</td>
+        <td class="text-lg px-8 py-1">{{data.date}}</td>
+      </tr>
+      {% endfor%}
+    </tbody>
+  </table>
+</section>
