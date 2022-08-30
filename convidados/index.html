@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>
+    Colóquio Thomas Kuhn   · Convidados 
+  </title>
+
+  <meta name="title" content="Colóquio Thomas Kuhn" />
+  <meta
+    name="description"
+    content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+  />
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+  />
+
+  <link rel="icon" href="/coloquio-kuhn/favicon.ico" sizes="any" />
+<!-- 32×32 -->
+<link rel="icon" href="/coloquio-kuhn/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/coloquio-kuhn/favicon.png" />
+<!-- 180×180 -->
+<link rel="manifest" href="/coloquio-kuhn/manifest.webmanifest" />
+ <!-- Created by metatag.io -->
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ralacerda.github.io/coloquio-kuhn/" />
+<meta property="og:title" content="Colóquio Thomas Kuhn" />
+<meta
+  property="og:description"
+  content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+/>
+<meta property="og:image" content="/coloquio-kuhn/social_media.webp" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta
+  property="twitter:url"
+  content="https://ralacerda.github.io/coloquio-kuhn/"
+/>
+<meta property="twitter:title" content="Colóquio Thomas Kuhn" />
+<meta
+  property="twitter:description"
+  content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+/>
+<meta property="twitter:image" content="/coloquio-kuhn/social_media.webp" />
+
+
+  <link rel="stylesheet" href="/coloquio-kuhn/style.css" />
+  <script
+    defer
+    src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"
+  ></script>
+
+  <script src="/coloquio-kuhn/alpine.js" defer></script>
+</head>
+
+
+  <body class="bg-kuhn-white min-h-screen flex flex-col">
+    <nav>
+  <div
+    x-data="{ isOpen: false }"
+    class="container flex flex-col lg:flex-row justify-between"
+  >
+    <div class="flex justify-between place-items-center h-[72px]">
+      <a
+        class="text-xl"
+        href="
+      
+      /coloquio-kuhn/
+      "
+      >
+        Colóquio Thomas Kuhn
+      </a>
+
+      <button
+        class="border-stone-300 border rounded-md lg:hidden opacity-50 hover:opacity-100 py-1 px-2"
+        @click="isOpen = !isOpen"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-6 h-6 sm:w-8 sm:h-8 lg:hidden"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+    </div>
+    <ul class="hidden lg:flex lg:flex-row place-items-center">
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/sobre
+        "
+          class="opacity-50 hover:opacity-100"
+          >Sobre</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+          #
+          "
+          class="opacity-50 hover:opacity-100"
+          >Convidados</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/datas
+        "
+          class="opacity-50 hover:opacity-100"
+          >Datas</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/trabalhos
+        "
+          class="opacity-50 hover:opacity-100"
+          >Trabalhos</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/inscricoes
+        "
+          class="opacity-50 hover:opacity-100"
+          >Inscrições</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/programacao
+        "
+          class="opacity-50 hover:opacity-100"
+          >Programação</a
+        >
+      </li>
+      
+    </ul>
+    <ul
+      class="flex flex-col lg:hidden lg:px-16"
+      x-show="isOpen"
+      @click.away="isOpen = false"
+      x-collapse.duration.600ms
+      x-cloak
+    >
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/sobre
+          "
+          class="opacity-50 hover:opacity-100"
+          >Sobre</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          #
+          "
+          class="opacity-50 hover:opacity-100"
+          >Convidados</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/datas
+          "
+          class="opacity-50 hover:opacity-100"
+          >Datas</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/trabalhos
+          "
+          class="opacity-50 hover:opacity-100"
+          >Trabalhos</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/inscricoes
+          "
+          class="opacity-50 hover:opacity-100"
+          >Inscrições</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/programacao
+          "
+          class="opacity-50 hover:opacity-100"
+          >Programação</a
+        >
+      </li>
+      
+    </ul>
+  </div>
+
+  <button
+    x-cloak
+    x-transition.opacity
+    x-data="{scroll : false}"
+    x-show="scroll"
+    @click="window.scrollTo({top: 0, behavior: 'smooth'})"
+    @scroll.window="document.documentElement.scrollTop > 320 ? scroll = true : scroll = false"
+    type="button"
+    class="p-3 text-kuhn-white fixed bottom-5 right-5 rounded-md bg-green shadow-md transition duration-700 ease-in-out"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="7"
+      stroke="currentColor"
+      class="w-3 h-3"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M4.5 15.75l7.5-7.5 7.5 7.5"
+      />
+    </svg>
+  </button>
+</nav>
+
+    <div class="flex-grow">
+<section class="container">
+  
+  <h1 class="text-3xl md:text-3xl font-bold text-center mb-12 mt-12 uppercase">
+  Convidados confirmados
+  </h1>
+  
+  
+  </h1>
+  <div
+  class="flex flex-wrap justify-around justify-self-center self-start place-items-center text-center"
+>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/jGeRpCkIFL-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Cibelle Celestino Silva
+    </div>
+    <div class="text-lg md:text-xl mb-3">USP São Carlos</div>
+    
+    <a href="http://lattes.cnpq.br/8975592323807707" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+    <div class="text-base text-justify leading-relaxed mt-4">
+      Possui graduação em Física pela Universidade de São Paulo (1993), mestrado e doutorado em Física pela Universidade Estadual de Campinas, na área de História da Física; Pós-Doutorado no Grupo de História e Teoria da Ciência (UNICAMP). É professora do Instituto de Física de São Carlos da Universidade de São Paulo, onde desenvolve pesquisas sobre História da Física e Ensino de Física. Foi Dibner Library Resident Scholar no Smithsonian Institution em Washington, DC (2004-2005) e Visiting Research Fellow no The Bakken Museum, Minneapolis (2014), ambos nos EUA. Assessorou o projeto HIPST-History and Philosophy in Science Teaching: An European Project (2008). Foi diretora do International History, Philosophy and Science Teaching Group (IHPST) e da Associação de Filosofia e História da Ciência do Cone Sul (AFHIC). Coordenou o Observatório Dietrich Schiel do Centro de Divulgação Científica e Cultural da Universidade de São Paulo (CDCC-USP) e o Grupo de História, Teoria e Ensino de Ciências (GHTC). É Coordenadora do Curso de Licenciatura em Ciências Exatas da Universidade de São Paulo.
+    </div>
+    
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/kMG8o7zNO8-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Fátima Regina Rodrigues Évora
+    </div>
+    <div class="text-lg md:text-xl mb-3">IFCH/Unicamp</div>
+    
+    <a href="http://lattes.cnpq.br/4719378717808783" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+    <div class="text-base text-justify leading-relaxed mt-4">
+      É livre docente (Professora Associada II, MS5.2) do Departamento de Filosofia do IFCH da Universidade Estadual de Campinas, UNICAMP, onde desenvolve pesquisas desde 1987 nas áreas de história da filosofia e história da filosofia da natureza. Graduou-se em Física pela USP, em 1980. Defendeu, em 1987, no IFCH-UNICAMP, o seu mestrado em filosofia sobre a Revolução Copernicano-Galileana: Origem, significado e inserção na história do pensamento científico e filosófico antigo e medieval. Doutorou-se em filosofia pela FFLCH-USP, em 1996, com tese sobre A evolução do conceito de inércia: de Filopono a Galileo. Em 2011, prestou concurso para Livre Docente na UNICAMP e foi aprovada, tornando-se Professora Associada I (MS5.1). Em 2015, submeteu-se ao Processo de Promoção por Mérito da carreira do magistério superior e, em 12/2015, foi promovida para o nível de Professor Associado II (MS-5.2). Fez estágio de pesquisa na Princeton University-EUA, a convite do Prof Dr. Daniel Garber, em 2014.e no Centre de Recherche sur la Pensée Antique “Bibliothèque Léon Robin” (Université de Paris IV et CNRS), em 2004 e 2008. De junho a agosto de 2016, esteve como Visiting Scholar in the Department of Philosophy of Princeton University - EUA, with Prof. Daniel Garber. Foi editora, de 1993 a 2013, dos Cadernos de História e Filosofia da Ciência, e, desde 2006, é diretora associada da coleção de livros Philosophia/Analytica, publicada pela Discurso Editorial. Foi bolsista de produtividade de pesquisa do CNPq, nível 1B, com o projeto “A recepção latina do conceito de matéria de Filopono no início da Filosofia Moderna? Desde março de 2022, é bolsista de produtividade de pesquisa do CNPq, com o projeto “A recepção latina da controvérsia entre Filopono e Simplicio acerca da relação entre natureza e movimento nos corpos elementares”. Tem publicado livros e artigos nas áreas de história da filosofia e história da filosofia da natureza, com ênfase principalmente nos seguintes temas: Aristóteles, Filopono de Alexandria, história da filosofia antiga e medieval, história da física e da astronomia.
+    </div>
+    
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/_mRobvxSSl-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Gustavo Silvano Batista
+    </div>
+    <div class="text-lg md:text-xl mb-3">PPGFIL/UFPI</div>
+    
+    <a href="http://lattes.cnpq.br/8899510748810172" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+    <div class="text-base text-justify leading-relaxed mt-4">
+      Graduado em Filosofia pela Pontifícia Universidade Católica do Rio de Janeiro (2004), Mestre em Filosofia pela Pontifícia Universidade Católica do Rio de Janeiro (2007), Doutor em Filosofia pela Pontifícia Universidade Católica do Rio de Janeiro (2013), com estágio de pesquisa - doutorado-sanduíche - no Departamento de Arte e Estudos Culturais da Universidade de Copenhague - Dinamarca (2012-2013), com o apoio do PGCI/CAPES. É Professor Associado I do Departamento de Filosofia da Universidade Federal do Piauí - UFPI. Atua como docente permanente no Programa de Pós-Graduação em Filosofia - PPGFIL/UFPI e no Programa de Pós-Graduação em Comunicação - PPGCOM/UFPI. Também atua no Mestrado Profissional em Filosofia - PROF-FILO/UFPR no Núcleo da Universidade Federal do Tocantins - UFT. Foi pesquisador visitante no Departamento de Filosofia do Boston College - EUA (2010-2011) e nos Arquivos Husserl da Universidade Católica de Louvain - Bélgica (2015). É líder do FOLIE - Laboratório Interdisciplinar Hermenêutica, Ambiente e Saúde, vinculado à Pró-Reitoria de Pesquisa e Inovação (PROPESQI-UFPI) e ao CNPq. Atuamente é Tutor do PET FIlosofia da UFPI. Tem experiência em ensino, pesquisa e extensão em filosofia contemporânea, dedicando-se especialmente à Hermenêutica Filosófica e suas relações com a Fenomenologia e a Desconstrução. Neste horizonte, lida com os seguintes temas: linguagem, conhecimento e mundo nas interfaces entre arquitetura, urbanismo, geografia e design; e a questão ambiental e a saúde coletiva. Também se dedica à filosofia da educação e ao ensino de filosofia. Na área de comunicação, investiga as interfaces entre hermenêutica, imagem e comunicação. 
+    </div>
+    
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/O_IOpzkwHw-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Mauro Lúcio Leitão Condé
+    </div>
+    <div class="text-lg md:text-xl mb-3">UFMG</div>
+    
+    <a href="http://lattes.cnpq.br/9430414176663318" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+    <div class="text-base text-justify leading-relaxed mt-4">
+      Professor Titular de História da Ciência [Historiografia da Ciência] da Universidade Federal de Minas Gerais (UFMG) onde leciona desde 1998. Foi Coordenador do Programa de Pós-Graduação em História da UFMG (Capes / Proex - nota 7) (2018-2020). Foi Vice-Diretor da Faculdade de Filosofia (2010-2014), entre outros cargos administrativos. Possui Bacharelado (1989), Mestrado (1993) e Doutorado em Filosofia (2001), todos pela Universidade Federal de Minas Gerais. Realizou estágio de Pós-Doutorado na Universidade de Boston (EUA) (2009-2010), na Universidade de Viena (Áustria) (2016) e na Universidade de São Paulo (2017). Tem experiência nas áreas de História da Ciência, Historiografia da Ciência, Epistemologia e Filosofia da Linguagem, atuando principalmente com Historiografia da Ciência [Thomas Kuhn, Ludwik Fleck, Alexandre Koyré, etc.]. Publicou os seguintes livros Wittgenstein e os Filósofos: Semelhanças de Família (Fino Traço 2020), Um papel para a história: o problema da historicidade da ciência (Ed. da UFPR, 2017); As Teias da Razão: Wittgenstein e a crise da racionalidade moderna (Argvmentvm, 2004) e Wittgenstein: Linguagem e Mundo (Annablume, 1998), além de ter organizado outros cinco livros em História e Filosofia da Ciência e publicado capítulos de livro e artigos em revistas especializadas no Brasil e no exterior. Entre 1999 e 2020, foi um dos Coordenadores do Scientia: Grupo de Teoria e História da Ciência da UFMG, sendo editor do selo Scientia/UFMG (2004-2008). Editor chefe do periódico Transversal: International Journal for the Historiography of Science. Orientou cinco teses de doutorado, além de quinze dissertações de mestrado e três supervisões de Pós-doutorado. Atualmente, orienta uma tese de doutorado, dois estágios sanduíches de doutorado (USP, UEM), uma dissertação de mestrado e três supervisões de Pós-doutoramento. Orientou ainda diversas monografias e ou trabalho final de especialização em história da ciência e em filosofia (Temas Filosóficos) na UFMG. Participou de bancas examinadoras, proferiu conferências e apresentou trabalhos em diversas universidades brasileiras e no exterior (Inglaterra, Suíça, Áustria, França e Polônia). 
+    </div>
+    
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/Q4vpPWDZxJ-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Paulo Pirozelli
+    </div>
+    <div class="text-lg md:text-xl mb-3">IEA/USP</div>
+    
+    <a href="http://lattes.cnpq.br/3711621404696226" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+    <div class="text-base text-justify leading-relaxed mt-4">
+      Doutor em Filosofia pela Universidade de São Paulo. Mestre (2013) e bacharel (2010) em Filosofia pela mesma Universidade. Fui pesquisador visitante na Universidade Columbia (2016) e no Institute for Quantitative Social Science, na Universidade Harvard (2018). Realizei estágio de pós-doutorado em Filosofia pela Universidade Federal de Santa Catarina (2018-2020), explorando questões metodológicas relativas às ciências sociais. Atualmente, sou pesquisador do Center for Artificial Intelligence (C4AI), mantido por uma parceria entre IBM-Fapesp-USP (com bolsa da Fundação Universidade de São Paulo), e pós-doutorando pelo Instituto de Estudos Avançados da Universidade de São Paulo. O projeto em que trabalho atualmente tem como objetivo construir um sistema conversacional complexo sobre a Amazônia Azul, capaz de oferecer respostas que envolvam causas e explicações. Minhas principais áreas de pesquisa são: Filosofia, com ênfase em filosofia da ciência, filosofia da linguagem e lógica; Inteligência artificial, com ênfase em aprendizado de máquinas, processamento de linguagem natural e aprendizado profundo. 
+    </div>
+    
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fJWYeuG6fn-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Peter Alexander Bleinroth Schulz
+    </div>
+    <div class="text-lg md:text-xl mb-3">ICHSA/Unicamp</div>
+    
+    <a href="http://lattes.cnpq.br/6073974259027393" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+    <div class="text-base text-justify leading-relaxed mt-4">
+      Possui graduação em Física pela Universidade Estadual de Campinas (1984), mestrado em Física pela Universidade Estadual de Campinas (1985), doutorado em Física pela Universidade Estadual de Campinas (1990) com estágio sanduiche na Universidad Autonoma de Madrid (1988-1989). Pós doutorado no Instituto Max Planck de Física do Estado Sólido em Stuttgart (1990-1992). Tem experiência na área de Física da Matéria Condensada, atuando principalmente nos seguintes temas: sistemas de baixa dimensionalidade e suas propriedades de transporte eletrônico. Nos últimos anos tem se dedicado à produção em divulgação científica, estudos quantitativos de ciência e estudos críticos de universidades. É curador da exposição &quot;Tão longe tão perto&quot;, sobre telecomunicações e sociedade, realizada em Brasília (2009) e São Paulo (2010). Docente do Núcleo Básico Comum da FCA desde 2013 e do curso de Mestrado Interdisciplinar de Ciências Humanas e Sociais Aplicadas dedes 2014. Professor titular desde 2016. Diretor associado &quot;pró tempore&quot; da Faculdade de Ciências Aplicadas da UNICAMP de maio de 2009 a abril de 2013 e diretor dessa mesma unidade de ensino e pesquisa da UNICAMP no período 2013-2017. Foi Secretário de Comunicação da Universidade Estadual de Campinas (2017-2021). 
+    </div>
+    
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/gJwjdSIdqq-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Robinson Guitarrari
+    </div>
+    <div class="text-lg md:text-xl mb-3">PPGFIL/UFRRJ</div>
+    
+    <a href="http://lattes.cnpq.br/3649125210518429" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+    <div class="text-base text-justify leading-relaxed mt-4">
+      Possui graduação (1994), mestrado (1999) e doutorado (2004) em Filosofia pela Universidade de São Paulo. Atualmente, é professor adjunto da Universidade Federal Rural do Rio de Janeiro. Leciona Teoria do Conhecimento, Filosofia da Ciência e Lógica. Interessa-se por racionalidade científica, relativismo cognitivo, epistemologia social e concepções deflacionistas de verdade. Sua pesquisa examina possibilidades de desenvolver uma concepção pragmatista da racionalidade científica e suas implicações para uma concepção realista acerca da ciência. 
+    </div>
+    
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/z6z_uL-Jj1-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Silvio Seno Chibeni
+    </div>
+    <div class="text-lg md:text-xl mb-3">IFCH/Unicamp</div>
+    
+    <a href="http://lattes.cnpq.br/3692309119853016" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+    <div class="text-base text-justify leading-relaxed mt-4">
+      Possui graduação em Física pela Universidade Estadual de Campinas (1981), mestrado em Física pela Universidade Estadual de Campinas (1984), doutorado em Lógica e Filosofia da Ciência pela Universidade Estadual de Campinas (1993), livre-docência em epistemologia (2004), professor titular (2019). Realizou estágio de pesquisa na Universidade de Oxford em 1986/1987 e pós-doutorado na Universidade de Paris 7 em 1994/1995. Atualmente é professor titular da Universidade Estadual de Campinas (aprovado em concurso público em 5/11/2019, nomeado em 16/3/2022). Tem experiência na área de Filosofia, com ênfase em Epistemologia, atuando nas seguintes linhas de pesquisa: História da Filosofia Moderna, História da Filosofia Contemporânea, Teoria do Conhecimento e Filosofia da Ciência.
+    </div>
+    
+  </div>
+  
+</div>
+
+</section>
+</div>
+  </body>
+
+  <footer><div
+  class="flex flex-wrap justify-between justify-items-center mx-auto container py-7 place-items-center"
+>
+  <div class="flex justify-center my-3 mx-4">
+    
+    <a href="https://www.youtube.com/c/FaculdadedeCi%C3%AAnciasAplicadasUnicamp" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/youtube.svg" />
+
+
+  </button>
+  </a>
+     
+    <a href="https://www.instagram.com/ichsa_unicamp/" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/instagram.svg" />
+
+
+  </button>
+  </a>
+    
+  </div>
+  <div class="my-3 mx-4">
+    <p class="text-2xl font-medium">Contato</p>
+    <p>Para mais informações, envie um e-mail para:</p>
+    <a href="mailto:eventos.ichsa@gmail.com" class="text-green"
+      >eventos.ichsa@gmail.com</a
+    >
+  </div>
+</div>
+<div class="text-center opacity-50 py-2">
+  &copy Copyright 2022 by Eventos ICHSA
+</div>
+</footer>
+</html>

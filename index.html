@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>
+    Colóquio Thomas Kuhn 
+  </title>
+
+  <meta name="title" content="Colóquio Thomas Kuhn" />
+  <meta
+    name="description"
+    content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+  />
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+  />
+
+  <link rel="icon" href="/coloquio-kuhn/favicon.ico" sizes="any" />
+<!-- 32×32 -->
+<link rel="icon" href="/coloquio-kuhn/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/coloquio-kuhn/favicon.png" />
+<!-- 180×180 -->
+<link rel="manifest" href="/coloquio-kuhn/manifest.webmanifest" />
+ <!-- Created by metatag.io -->
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ralacerda.github.io/coloquio-kuhn/" />
+<meta property="og:title" content="Colóquio Thomas Kuhn" />
+<meta
+  property="og:description"
+  content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+/>
+<meta property="og:image" content="/coloquio-kuhn/social_media.webp" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta
+  property="twitter:url"
+  content="https://ralacerda.github.io/coloquio-kuhn/"
+/>
+<meta property="twitter:title" content="Colóquio Thomas Kuhn" />
+<meta
+  property="twitter:description"
+  content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+/>
+<meta property="twitter:image" content="/coloquio-kuhn/social_media.webp" />
+
+
+  <link rel="stylesheet" href="/coloquio-kuhn/style.css" />
+  <script
+    defer
+    src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"
+  ></script>
+
+  <script src="/coloquio-kuhn/alpine.js" defer></script>
+</head>
+
+
+  <body class="bg-kuhn-white min-h-screen flex flex-col">
+    <nav>
+  <div
+    x-data="{ isOpen: false }"
+    class="container flex flex-col lg:flex-row justify-between"
+  >
+    <div class="flex justify-between place-items-center h-[72px]">
+      <a
+        class="text-xl"
+        href="
+      
+      #
+      "
+      >
+        Colóquio Thomas Kuhn
+      </a>
+
+      <button
+        class="border-stone-300 border rounded-md lg:hidden opacity-50 hover:opacity-100 py-1 px-2"
+        @click="isOpen = !isOpen"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-6 h-6 sm:w-8 sm:h-8 lg:hidden"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+    </div>
+    <ul class="hidden lg:flex lg:flex-row place-items-center">
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/sobre
+        "
+          class="opacity-50 hover:opacity-100"
+          >Sobre</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/convidados
+        "
+          class="opacity-50 hover:opacity-100"
+          >Convidados</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/datas
+        "
+          class="opacity-50 hover:opacity-100"
+          >Datas</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/trabalhos
+        "
+          class="opacity-50 hover:opacity-100"
+          >Trabalhos</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/inscricoes
+        "
+          class="opacity-50 hover:opacity-100"
+          >Inscrições</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/programacao
+        "
+          class="opacity-50 hover:opacity-100"
+          >Programação</a
+        >
+      </li>
+      
+    </ul>
+    <ul
+      class="flex flex-col lg:hidden lg:px-16"
+      x-show="isOpen"
+      @click.away="isOpen = false"
+      x-collapse.duration.600ms
+      x-cloak
+    >
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/sobre
+          "
+          class="opacity-50 hover:opacity-100"
+          >Sobre</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/convidados
+          "
+          class="opacity-50 hover:opacity-100"
+          >Convidados</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/datas
+          "
+          class="opacity-50 hover:opacity-100"
+          >Datas</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/trabalhos
+          "
+          class="opacity-50 hover:opacity-100"
+          >Trabalhos</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/inscricoes
+          "
+          class="opacity-50 hover:opacity-100"
+          >Inscrições</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/programacao
+          "
+          class="opacity-50 hover:opacity-100"
+          >Programação</a
+        >
+      </li>
+      
+    </ul>
+  </div>
+
+  <button
+    x-cloak
+    x-transition.opacity
+    x-data="{scroll : false}"
+    x-show="scroll"
+    @click="window.scrollTo({top: 0, behavior: 'smooth'})"
+    @scroll.window="document.documentElement.scrollTop > 320 ? scroll = true : scroll = false"
+    type="button"
+    class="p-3 text-kuhn-white fixed bottom-5 right-5 rounded-md bg-green shadow-md transition duration-700 ease-in-out"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="7"
+      stroke="currentColor"
+      class="w-3 h-3"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M4.5 15.75l7.5-7.5 7.5 7.5"
+      />
+    </svg>
+  </button>
+</nav>
+
+    <div class="flex-grow">
+<header><div class="h-[350px] sm:h-[500px] md:xl:h-[613px] relative overflow-hidden">
+  <img
+    src="/coloquio-kuhn/img/hero/hero_new.webp"
+    class="absolute h-[350px] sm:h-[500px] xl:h-[613px] object-none"
+  />
+  <div
+    class="mx-auto w-fit absolute right-1/2 sm:translate-x-[60%] translate-x-1/2 top-[78%] xl:top-[65%] -translate-y-1/2"
+  >
+    <div
+      class="px-2 relative w-fit xl:-translate-x-14 bg-green text-kuhn-white uppercase text-[50px] xl:text-[107px] font-black xl:-mb-1 -mb-0.5 sm:text-[64px]"
+    >
+      <img
+        src="/coloquio-kuhn/img/hero/kuhn.webp"
+        class="sm:w-64 absolute xl:top-[-160px] xl:right-[-350px] xl:h-[360px] w-48 xl:w-[320px] right-[40%] translate-x-1/2 xl:translate-x-0 top-[-270%] -z-20 sm:-z-20 sm:absolute"
+      />
+      colóquio
+    </div>
+    <div
+      class="whitespace-nowrap px-2 relative w-fit sm:translate-x-16 xl:translate-x-16 translate-x-14 bg-blue text-kuhn-white uppercase text-[26px] sm:text-[42px] xl:text-[73px] font-black z-10 xl:-mb-1 -mb-0.5"
+    >
+      thomas kuhn
+    </div>
+    <div
+      class="px-2 xl:-translate-x-32 -translate-x-2 w-fit bg-green text-kuhn-white text-[12px] sm:text-[22px] xl:text-[41px] font-black z-0 whitespace-nowrap"
+    >
+      Ciência, história e comunidade científica
+    </div>
+    <div
+      class="xl:translate-x-7 sm:translate-x-24 translate-x-14 text-blue w-fit text-[14px] sm:text-[22px] xl:text-[41px]"
+    >
+      29 e 30 de Setembro de 2022
+    </div>
+  </div>
+</div>
+</header>
+<section class="bg-blue text-center text-kuhn-white py-6 mb-4">
+  <div class="container">
+    <div class="leading-tight text-xl lg:text-3xl font-bold py-1">
+      60 anos da obra “A Estrutura das Revoluções Científicas”
+    </div>
+    <div class="leading-tight text-xl lg:text-3xl font-bold py-1">
+      100 anos de nascimento de Thomas Kuhn
+    </div>
+    <div class="text-lg md:text-xl py-2 font-medium">
+      Presencialmente, nos dias 29 e 30 de setembro de 2022, na Faculdade de
+      Ciências Aplicadas da Universidade Estadual de Campinas em Limeira
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">
+    Convidados confirmados
+  </h2>
+  <div
+  class="flex flex-wrap justify-around justify-self-center self-start place-items-center text-center"
+>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/jGeRpCkIFL-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Cibelle Celestino Silva
+    </div>
+    <div class="text-lg md:text-xl mb-3">USP São Carlos</div>
+    
+    <a href="http://lattes.cnpq.br/8975592323807707" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/kMG8o7zNO8-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Fátima Regina Rodrigues Évora
+    </div>
+    <div class="text-lg md:text-xl mb-3">IFCH/Unicamp</div>
+    
+    <a href="http://lattes.cnpq.br/4719378717808783" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/_mRobvxSSl-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Gustavo Silvano Batista
+    </div>
+    <div class="text-lg md:text-xl mb-3">PPGFIL/UFPI</div>
+    
+    <a href="http://lattes.cnpq.br/8899510748810172" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/O_IOpzkwHw-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Mauro Lúcio Leitão Condé
+    </div>
+    <div class="text-lg md:text-xl mb-3">UFMG</div>
+    
+    <a href="http://lattes.cnpq.br/9430414176663318" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/Q4vpPWDZxJ-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Paulo Pirozelli
+    </div>
+    <div class="text-lg md:text-xl mb-3">IEA/USP</div>
+    
+    <a href="http://lattes.cnpq.br/3711621404696226" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fJWYeuG6fn-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Peter Alexander Bleinroth Schulz
+    </div>
+    <div class="text-lg md:text-xl mb-3">ICHSA/Unicamp</div>
+    
+    <a href="http://lattes.cnpq.br/6073974259027393" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/gJwjdSIdqq-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Robinson Guitarrari
+    </div>
+    <div class="text-lg md:text-xl mb-3">PPGFIL/UFRRJ</div>
+    
+    <a href="http://lattes.cnpq.br/3649125210518429" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+  </div>
+  
+  <div class="mx-auto mb-20 justify-items-center self-start">
+    
+    <div
+      class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      <img alt="Photo of cibelle" loading="lazy" decoding="async" src="/coloquio-kuhn/img/z6z_uL-Jj1-192.webp" width="192" height="192">
+    </div>
+    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+      Silvio Seno Chibeni
+    </div>
+    <div class="text-lg md:text-xl mb-3">IFCH/Unicamp</div>
+    
+    <a href="http://lattes.cnpq.br/3692309119853016" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
+
+
+  </button>
+  </a>
+     
+  </div>
+  
+</div>
+
+</section>
+<section class="container"><div class="mb-12">
+  <div class="mb-2">
+    <h3 class="text-3xl mb-2 font-medium">Realização</h3>
+    <div>
+      <strong>ICHSA</strong> – Programa de Pós-Graduação Interdisciplinar em
+      Ciências Humanas e Sociais Aplicadas (Unicamp)
+    </div>
+    <div>
+      <strong>PPGFIL</strong> – Programa de Pós-Graduação em Filosofia (UFPI)
+    </div>
+  </div>
+  <div class="mb-2">
+    <h3 class="text-3xl font-medium mb-2">Apoio</h3>
+    <p>
+      <strong>NOMEAR</strong> – Grupo de Pesquisa Fenomenologia e Geografia
+      <br />
+      <strong>LAGERR</strong> – Laboratório de Geografia dos Riscos e
+      Resiliência
+      <br />
+      <strong
+        >Laboratório Interdisciplinar Hermenêutica, Ambiente e Saúde</strong
+      >
+      (FOLIE/CNPq) - UFPI
+    </p>
+  </div>
+</div>
+<div class="flex flex-wrap place-items-center justify-center py-3 md:py-5">
+  
+  <div class="px-4">
+    <figure>
+      <a href="https://www.fca.unicamp.br/portal/pt-br/posgrad/posgrad-programas/posgrad-cursos-ichsa/288-programa-de-pos-graduacao-interdisciplinar-em-ciencias-humanas-e-sociais-aplicadas.html" target="_blank"
+        ><img src="/coloquio-kuhn/img/logos/ichsa.webp" class="h-14 md:h-24 sm:h-20"
+      /></a>
+    </figure>
+  </div>
+  
+  <div class="px-4">
+    <figure>
+      <a href="https://sigaa.ufpi.br/sigaa/public/programa/portal.jsf?id=956" target="_blank"
+        ><img src="/coloquio-kuhn/img/logos/ppgfil.webp" class="h-14 md:h-24 sm:h-20"
+      /></a>
+    </figure>
+  </div>
+  
+</div>
+<div class="flex flex-wrap place-items-center justify-center py-3 md:py-5">
+  
+  <div class="px-2">
+    <figure>
+      <a href="https://fenomenologiaegeografia.wordpress.com" target="_blank"
+        ><img src="/coloquio-kuhn/img/logos/nomear.webp" class="h-10 md:h-20 sm:h-16"
+      /></a>
+    </figure>
+  </div>
+  
+  <div class="px-2">
+    <figure>
+      <a href="https://www.fca.unicamp.br/lagerr/" target="_blank"
+        ><img src="/coloquio-kuhn/img/logos/lagerr.webp" class="h-10 md:h-20 sm:h-16"
+      /></a>
+    </figure>
+  </div>
+  
+  <div class="px-2">
+    <figure>
+      <a href="https://geografiahumanista.wordpress.com/about/" target="_blank"
+        ><img src="/coloquio-kuhn/img/logos/folie.webp" class="h-10 md:h-20 sm:h-16"
+      /></a>
+    </figure>
+  </div>
+  
+</div>
+<div class="flex flex-wrap place-items-center justify-center py-3 md:py-5">
+  
+  <div class="px-4">
+    <figure>
+      <a href="https://www.fca.unicamp.br/portal/pt-br/" target="_blank"
+        ><img src="/coloquio-kuhn/img/logos/fca.webp" class="h-14 md:h-20 sm:h-18"
+      /></a>
+    </figure>
+  </div>
+  
+  <div class="px-4">
+    <figure>
+      <a href="https://www.unicamp.br/unicamp/" target="_blank"
+        ><img src="/coloquio-kuhn/img/logos/unicamp.webp" class="h-14 md:h-20 sm:h-18"
+      /></a>
+    </figure>
+  </div>
+  
+</div>
+</section>
+</div>
+  </body>
+
+  <footer><div
+  class="flex flex-wrap justify-between justify-items-center mx-auto container py-7 place-items-center"
+>
+  <div class="flex justify-center my-3 mx-4">
+    
+    <a href="https://www.youtube.com/c/FaculdadedeCi%C3%AAnciasAplicadasUnicamp" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/youtube.svg" />
+
+
+  </button>
+  </a>
+     
+    <a href="https://www.instagram.com/ichsa_unicamp/" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/instagram.svg" />
+
+
+  </button>
+  </a>
+    
+  </div>
+  <div class="my-3 mx-4">
+    <p class="text-2xl font-medium">Contato</p>
+    <p>Para mais informações, envie um e-mail para:</p>
+    <a href="mailto:eventos.ichsa@gmail.com" class="text-green"
+      >eventos.ichsa@gmail.com</a
+    >
+  </div>
+</div>
+<div class="text-center opacity-50 py-2">
+  &copy Copyright 2022 by Eventos ICHSA
+</div>
+</footer>
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>
+    Colóquio Thomas Kuhn   · Trabalhos 
+  </title>
+
+  <meta name="title" content="Colóquio Thomas Kuhn" />
+  <meta
+    name="description"
+    content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+  />
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+  />
+
+  <link rel="icon" href="/coloquio-kuhn/favicon.ico" sizes="any" />
+<!-- 32×32 -->
+<link rel="icon" href="/coloquio-kuhn/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/coloquio-kuhn/favicon.png" />
+<!-- 180×180 -->
+<link rel="manifest" href="/coloquio-kuhn/manifest.webmanifest" />
+ <!-- Created by metatag.io -->
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ralacerda.github.io/coloquio-kuhn/" />
+<meta property="og:title" content="Colóquio Thomas Kuhn" />
+<meta
+  property="og:description"
+  content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+/>
+<meta property="og:image" content="/coloquio-kuhn/social_media.webp" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta
+  property="twitter:url"
+  content="https://ralacerda.github.io/coloquio-kuhn/"
+/>
+<meta property="twitter:title" content="Colóquio Thomas Kuhn" />
+<meta
+  property="twitter:description"
+  content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+/>
+<meta property="twitter:image" content="/coloquio-kuhn/social_media.webp" />
+
+
+  <link rel="stylesheet" href="/coloquio-kuhn/style.css" />
+  <script
+    defer
+    src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"
+  ></script>
+
+  <script src="/coloquio-kuhn/alpine.js" defer></script>
+</head>
+
+
+  <body class="bg-kuhn-white min-h-screen flex flex-col">
+    <nav>
+  <div
+    x-data="{ isOpen: false }"
+    class="container flex flex-col lg:flex-row justify-between"
+  >
+    <div class="flex justify-between place-items-center h-[72px]">
+      <a
+        class="text-xl"
+        href="
+      
+      /coloquio-kuhn/
+      "
+      >
+        Colóquio Thomas Kuhn
+      </a>
+
+      <button
+        class="border-stone-300 border rounded-md lg:hidden opacity-50 hover:opacity-100 py-1 px-2"
+        @click="isOpen = !isOpen"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-6 h-6 sm:w-8 sm:h-8 lg:hidden"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+    </div>
+    <ul class="hidden lg:flex lg:flex-row place-items-center">
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/sobre
+        "
+          class="opacity-50 hover:opacity-100"
+          >Sobre</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/convidados
+        "
+          class="opacity-50 hover:opacity-100"
+          >Convidados</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/datas
+        "
+          class="opacity-50 hover:opacity-100"
+          >Datas</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+          #
+          "
+          class="opacity-50 hover:opacity-100"
+          >Trabalhos</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/inscricoes
+        "
+          class="opacity-50 hover:opacity-100"
+          >Inscrições</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/programacao
+        "
+          class="opacity-50 hover:opacity-100"
+          >Programação</a
+        >
+      </li>
+      
+    </ul>
+    <ul
+      class="flex flex-col lg:hidden lg:px-16"
+      x-show="isOpen"
+      @click.away="isOpen = false"
+      x-collapse.duration.600ms
+      x-cloak
+    >
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/sobre
+          "
+          class="opacity-50 hover:opacity-100"
+          >Sobre</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/convidados
+          "
+          class="opacity-50 hover:opacity-100"
+          >Convidados</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/datas
+          "
+          class="opacity-50 hover:opacity-100"
+          >Datas</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          #
+          "
+          class="opacity-50 hover:opacity-100"
+          >Trabalhos</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/inscricoes
+          "
+          class="opacity-50 hover:opacity-100"
+          >Inscrições</a
+        >
+      </li>
+      
+      <li class="text-sm py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/programacao
+          "
+          class="opacity-50 hover:opacity-100"
+          >Programação</a
+        >
+      </li>
+      
+    </ul>
+  </div>
+
+  <button
+    x-cloak
+    x-transition.opacity
+    x-data="{scroll : false}"
+    x-show="scroll"
+    @click="window.scrollTo({top: 0, behavior: 'smooth'})"
+    @scroll.window="document.documentElement.scrollTop > 320 ? scroll = true : scroll = false"
+    type="button"
+    class="p-3 text-kuhn-white fixed bottom-5 right-5 rounded-md bg-green shadow-md transition duration-700 ease-in-out"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="7"
+      stroke="currentColor"
+      class="w-3 h-3"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M4.5 15.75l7.5-7.5 7.5 7.5"
+      />
+    </svg>
+  </button>
+</nav>
+
+    <div class="flex-grow">
+<section class="container">
+  
+  <h1 class="text-3xl md:text-3xl font-bold text-center mb-12 mt-12 uppercase">
+  SUBMISSÃO DE TRABALHOS
+  </h1>
+  
+
+  <div class="text-lg text-justify leading-relaxed mt-4 space-y-4">
+    <p>
+      Os trabalhos devem ter entre 15 e 20 páginas, em letra Times New Roman,
+      tamanho 12, espaçamento 1,5, com sistema de referências Autor-Data, nas
+      normas da ABNT. Os artigos aprovados serão apresentados nas sessões
+      temáticas, na programação principal do evento. Serão publicados em dossiê
+      de periódico acadêmico.
+    </p>
+
+    <p></p>
+    <p>Os eixos temáticos são:</p>
+
+    <ol class="pl-12 list-decimal space-y-4">
+      <li class="text-left">
+        O pensamento de Kuhn na filosofia da ciência hoje;
+      </li>
+      <li class="text-left">
+        Paradigmas menores incomensuráveis e conviventes;
+      </li>
+      <li class="text-left">
+        Comunidades científicas e paradigmas nas ciências humanas e sociais;
+      </li>
+      <li class="text-left">Outros.</li>
+    </ol>
+  </div>
+</section>
+</div>
+  </body>
+
+  <footer><div
+  class="flex flex-wrap justify-between justify-items-center mx-auto container py-7 place-items-center"
+>
+  <div class="flex justify-center my-3 mx-4">
+    
+    <a href="https://www.youtube.com/c/FaculdadedeCi%C3%AAnciasAplicadasUnicamp" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/youtube.svg" />
+
+
+  </button>
+  </a>
+     
+    <a href="https://www.instagram.com/ichsa_unicamp/" target="_blank">
+    <button
+    type="button"
+    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/instagram.svg" />
+
+
+  </button>
+  </a>
+    
+  </div>
+  <div class="my-3 mx-4">
+    <p class="text-2xl font-medium">Contato</p>
+    <p>Para mais informações, envie um e-mail para:</p>
+    <a href="mailto:eventos.ichsa@gmail.com" class="text-green"
+      >eventos.ichsa@gmail.com</a
+    >
+  </div>
+</div>
+<div class="text-center opacity-50 py-2">
+  &copy Copyright 2022 by Eventos ICHSA
+</div>
+</footer>
+</html>
