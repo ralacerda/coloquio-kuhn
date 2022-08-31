@@ -1,0 +1,29 @@
+{% for convidado in convidados %}
+<div
+  class="mx-auto mb-24 flex flex-col items-top md:flex-row md:odd:flex-row-reverse text-center md:text-left md:odd:text-right"
+>
+  <div class="mx-12 text-center">
+    <div
+      class="w-48 h-48 shrink rounded-full mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
+    >
+      {% image 'src' + convidado.foto, "", [192] %}
+    </div>
+    <div class="font-medium text-xl">{{ convidado.nome }}</div>
+    <div class="text-slate-500 text-lg mb-4">{{ convidado.departamento }}</div>
+    <block class="block text-center mt-4"
+      >{% button "lattes", convidado.cv %}</block
+    >
+  </div>
+  <div class="basis-[70%] relative">
+    <div class="font-semibold text-2xl mb-4 uppercase">
+      {{ convidado.palestra }}
+    </div>
+
+    <div>
+      <p class="text-xs text-justify leading-relaxed mb-3 relative">
+        {{ convidado.resumo }}
+      </p>
+    </div>
+  </div>
+</div>
+{% endfor %}

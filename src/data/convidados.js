@@ -2,7 +2,8 @@ module.exports = [
   {
     nome: "Cibelle Celestino Silva",
     departamento: "USP São Carlos",
-    palestra: "Algo sobre algo",
+    palestra:
+      "O papel das comunidades científicas na construção do conceito de informação no século XX ",
     foto: "/img/fotos/cibelle.jpeg",
     cv: "http://lattes.cnpq.br/8975592323807707",
     resumo:
@@ -11,7 +12,7 @@ module.exports = [
   {
     nome: "Fátima Regina Rodrigues Évora",
     departamento: "IFCH/Unicamp",
-    palestra: "Algo sobre algo",
+    palestra: "Kuhn e a crise na astronomia quinhentista",
     foto: "/img/fotos/fatima.jpeg",
     cv: "http://lattes.cnpq.br/4719378717808783",
     resumo:
@@ -20,7 +21,7 @@ module.exports = [
   {
     nome: "Gustavo Silvano Batista",
     departamento: "PPGFIL/UFPI",
-    palestra: "Algo sobre algo",
+    palestra: "Seria Thomas Kuhn um hermeneuta? ",
     foto: "/img/fotos/gustavo.jpeg",
     cv: "http://lattes.cnpq.br/8899510748810172",
     resumo:
@@ -29,7 +30,7 @@ module.exports = [
   {
     nome: "Mauro Lúcio Leitão Condé",
     departamento: "UFMG",
-    palestra: "Algo sobre algo",
+    palestra: "O legado de Kuhn para a historiografia da ciência ",
     foto: "/img/fotos/mauro.jpg",
     cv: "http://lattes.cnpq.br/9430414176663318",
     resumo:
@@ -38,7 +39,7 @@ module.exports = [
   {
     nome: "Paulo Pirozelli",
     departamento: "IEA/USP",
-    palestra: "Algo sobre algo",
+    palestra: "Os usos da história ",
     foto: "/img/fotos/paulo.jpeg",
     cv: "http://lattes.cnpq.br/3711621404696226",
     resumo:
@@ -47,7 +48,8 @@ module.exports = [
   {
     nome: "Peter Alexander Bleinroth Schulz",
     departamento: "ICHSA/Unicamp",
-    palestra: "Algo sobre algo",
+    palestra:
+      "A trajetória da física para as humanidades e uma pergunta final ",
     foto: "/img/fotos/peter.jpeg",
     cv: "http://lattes.cnpq.br/6073974259027393",
     resumo:
@@ -57,7 +59,8 @@ module.exports = [
   {
     nome: "Robinson Guitarrari",
     departamento: "PPGFIL/UFRRJ",
-    palestra: "Algo sobre algo",
+    palestra:
+      "Relativismo ou pragmatismo nas controvérsias científicas kuhnianas? ",
     foto: "/img/fotos/robinson.jpeg",
     cv: "http://lattes.cnpq.br/3649125210518429",
     resumo:
@@ -66,7 +69,7 @@ module.exports = [
   {
     nome: "Silvio Seno Chibeni",
     departamento: "IFCH/Unicamp",
-    palestra: "Algo sobre algo",
+    palestra: "Kuhn epistemólogo ",
     foto: "/img/fotos/silvio.jpg",
     cv: "http://lattes.cnpq.br/3692309119853016",
     resumo:
