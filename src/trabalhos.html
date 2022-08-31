@@ -4,31 +4,21 @@ title: Trabalhos
 ---
 
 <section class="container">
-  {% title "SUBMISSÃO DE TRABALHOS" %}
+  {% title "Trabalhos Aceitos" %}
 
-  <div class="text-lg text-justify leading-relaxed mt-4 space-y-4">
-    <p>
-      Os trabalhos devem ter entre 15 e 20 páginas, em letra Times New Roman,
-      tamanho 12, espaçamento 1,5, com sistema de referências Autor-Data, nas
-      normas da ABNT. Os artigos aprovados serão apresentados nas sessões
-      temáticas, na programação principal do evento. Serão publicados em dossiê
-      de periódico acadêmico.
-    </p>
+  <div>
+    {% for trabalho in trabalhos %}
+    <div class="mb-20 text-center">
+      <div class="font-medium text-2xl mb-6 uppercase">{{trabalho.titulo}}</div>
+      <div
+        class="flex flex-col lg:flex-row lg:flex-wrap justify-evenly justify-items-center"
+      >
+        {% for autor in trabalho.autores %}
+        <div class="mb-2 px-5 text-lg text-slate-600">{{autor}}</div>
 
-    <p></p>
-    <p>Os eixos temáticos são:</p>
-
-    <ol class="pl-12 list-decimal space-y-4">
-      <li class="text-left">
-        O pensamento de Kuhn na filosofia da ciência hoje;
-      </li>
-      <li class="text-left">
-        Paradigmas menores incomensuráveis e conviventes;
-      </li>
-      <li class="text-left">
-        Comunidades científicas e paradigmas nas ciências humanas e sociais;
-      </li>
-      <li class="text-left">Outros.</li>
-    </ol>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
   </div>
 </section>
