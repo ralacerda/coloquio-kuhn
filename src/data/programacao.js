@@ -139,7 +139,6 @@ module.exports = [
           {
             titulo: "Kuhn e a crise na astronomia quinhentista",
             autores: ["Fátima Évora (IFCH/Unicamp)"],
-            aConfirmar: true,
           },
         ],
       },
@@ -168,7 +167,11 @@ module.exports = [
           {
             titulo:
               "Mudanças paradigmáticas do treinamento em altitude e hipóxia à luz da estrutura das revoluções científicas",
-            autores: ["Marcelo Papoti (USP)"],
+            autores: [
+              "Marcelo Papoti (USP)",
+              "Fulvia de Barros Machado-Gobatto (Unicamp)",
+              "Claudio Alexandre Gobatto (Unicamp)",
+            ],
           },
         ],
       },
