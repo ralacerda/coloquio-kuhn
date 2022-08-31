@@ -1,7 +1,7 @@
 module.exports = {
   title(text) {
     return `
-  <h1 class="text-3xl md:text-3xl font-extrabold text-center mb-12 mt-12 uppercase">
+  <h1 class="text-3xl md:text-3xl font-bold text-center mb-12 mt-12 uppercase">
   ${text}
   </h1>
   `;
