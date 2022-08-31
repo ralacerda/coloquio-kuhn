@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "eleventy --serve & npx tailwindcss -i src/style.css -c tailwind.config.js -o dist/style.css --watch"
+    "dev": "eleventy --serve & npx tailwindcss -i src/style.css -c tailwind.config.js -o dist/style.css --watch",
+    "deploy": "npx tailwindcss -i src/style.css -c tailwind.config.js -o dist/style.css --minify && eleventy && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
