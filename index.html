@@ -202,7 +202,7 @@
       x-cloak
     >
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           /coloquio-kuhn/sobre
@@ -212,7 +212,7 @@
         >
       </li>
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           /coloquio-kuhn/convidados
@@ -222,7 +222,7 @@
         >
       </li>
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           /coloquio-kuhn/datas
@@ -232,7 +232,7 @@
         >
       </li>
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           /coloquio-kuhn/trabalhos
@@ -242,7 +242,7 @@
         >
       </li>
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           /coloquio-kuhn/inscricoes
@@ -252,7 +252,7 @@
         >
       </li>
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           /coloquio-kuhn/programacao
@@ -271,8 +271,10 @@
     x-data="{scroll : false}"
     x-show="scroll"
     @click="window.scrollTo({top: 0, behavior: 'smooth'})"
+    @touchstart.passive.window
     @scroll.window="document.documentElement.scrollTop > 320 ? scroll = true : scroll = false"
     type="button"
+    aria-label="show menu bar"
     class="p-3 text-kuhn-white fixed bottom-5 right-5 rounded-md bg-green shadow-md transition duration-700 ease-in-out z-50"
   >
     <svg
@@ -297,6 +299,7 @@
   <img
     src="/coloquio-kuhn/img/hero/hero_new.webp"
     class="absolute h-[350px] sm:h-[500px] xl:h-[613px] object-none"
+    alt=""
   />
   <div
     class="mx-auto w-fit absolute right-1/2 sm:translate-x-[60%] translate-x-1/2 top-[78%] xl:top-[65%] -translate-y-1/2"
@@ -306,6 +309,7 @@
     >
       <img
         src="/coloquio-kuhn/img/hero/kuhn.webp"
+        alt="Foto de Thomas Kuhn"
         class="sm:w-64 absolute xl:top-[-160px] xl:right-[-350px] xl:h-[360px] w-48 xl:w-[320px] right-[40%] translate-x-1/2 xl:translate-x-0 top-[-270%] -z-20 sm:-z-20 sm:absolute"
       />
       colóquio
@@ -526,7 +530,7 @@
   <div class="px-4">
     <figure>
       <a href="https://www.fca.unicamp.br/portal/pt-br/posgrad/posgrad-programas/posgrad-cursos-ichsa/288-programa-de-pos-graduacao-interdisciplinar-em-ciencias-humanas-e-sociais-aplicadas.html" target="_blank"
-        ><img src="/coloquio-kuhn/img/logos/ichsa.webp" class="h-14 md:h-24 sm:h-20"
+        ><img src="/coloquio-kuhn/img/logos/ichsa.webp" class="h-14 md:h-24 sm:h-20" alt=""
       /></a>
     </figure>
   </div>
@@ -534,7 +538,7 @@
   <div class="px-4">
     <figure>
       <a href="https://sigaa.ufpi.br/sigaa/public/programa/portal.jsf?id=956" target="_blank"
-        ><img src="/coloquio-kuhn/img/logos/ppgfil.webp" class="h-14 md:h-24 sm:h-20"
+        ><img src="/coloquio-kuhn/img/logos/ppgfil.webp" class="h-14 md:h-24 sm:h-20" alt=""
       /></a>
     </figure>
   </div>

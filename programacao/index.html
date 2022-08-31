@@ -202,7 +202,7 @@
       x-cloak
     >
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           /coloquio-kuhn/sobre
@@ -212,7 +212,7 @@
         >
       </li>
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           /coloquio-kuhn/convidados
@@ -222,7 +222,7 @@
         >
       </li>
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           /coloquio-kuhn/datas
@@ -232,7 +232,7 @@
         >
       </li>
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           /coloquio-kuhn/trabalhos
@@ -242,7 +242,7 @@
         >
       </li>
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           /coloquio-kuhn/inscricoes
@@ -252,7 +252,7 @@
         >
       </li>
       
-      <li class="text-sm py-2 px-4">
+      <li class="text py-2 px-4">
         <a
           href="
           #
@@ -271,8 +271,10 @@
     x-data="{scroll : false}"
     x-show="scroll"
     @click="window.scrollTo({top: 0, behavior: 'smooth'})"
+    @touchstart.passive.window
     @scroll.window="document.documentElement.scrollTop > 320 ? scroll = true : scroll = false"
     type="button"
+    aria-label="show menu bar"
     class="p-3 text-kuhn-white fixed bottom-5 right-5 rounded-md bg-green shadow-md transition duration-700 ease-in-out z-50"
   >
     <svg
@@ -295,7 +297,7 @@
     <div class="flex-grow">
 <section class="container">
   
-  <h1 class="text-3xl md:text-3xl font-extrabold text-center mb-12 mt-12 uppercase">
+  <h1 class="text-3xl md:text-3xl font-bold text-center mb-12 mt-12 uppercase">
   Programação
   </h1>
   
@@ -375,7 +377,7 @@
         <div class="pl-6">
           <div class="mb-4">
             
-            <span class="text-slate-400">Coordernado por</span>
+            <span class="text-slate-400">Coordenado por</span>
              Peter Schulz
           </div>
           
@@ -427,7 +429,7 @@
         <div class="pl-6">
           <div class="mb-4">
             
-            <span class="text-slate-400">Coordernado por</span>
+            <span class="text-slate-400">Coordenado por</span>
              Eduardo Marandola Jr. (ICHSA/Unicamp)
           </div>
           
@@ -489,7 +491,7 @@
         <div class="pl-6">
           <div class="mb-4">
             
-            <span class="text-slate-400">Coordernado por</span>
+            <span class="text-slate-400">Coordenado por</span>
              Antonio Bernardes (UFF/ICHSA/Unicamp)
           </div>
           
@@ -574,7 +576,7 @@
         <div class="pl-6">
           <div class="mb-4">
             
-            <span class="text-slate-400">Coordernado por</span>
+            <span class="text-slate-400">Coordenado por</span>
              Sandra Francisca Bezerra Gemma (ICHSA/Unicamp)
           </div>
           
@@ -638,7 +640,7 @@
         <div class="pl-6">
           <div class="mb-4">
             
-            <span class="text-slate-400">Coordernado por</span>
+            <span class="text-slate-400">Coordenado por</span>
              Mauro Cardoso Simões (ICHSA/Unicamp)
           </div>
           
@@ -710,7 +712,7 @@
         <div class="pl-6">
           <div class="mb-4">
             
-            <span class="text-slate-400">Coordernado por</span>
+            <span class="text-slate-400">Coordenado por</span>
              Roberto Donato da Silva Jr. (ICHSA/Unicamp)
           </div>
           
@@ -727,12 +729,6 @@
           <div class="mb-8">
             <div class="text-2xl font-medium mb-2 text-gray-700 relative">
               Kuhn e a crise na astronomia quinhentista 
-              <span
-                class="ml-1 text-xs bg-green rounded-md text-kuhn-white py-0.5 px-2 absolute"
-              >
-                A confirmar
-              </span>
-              
             </div>
             
             <div class="mb-1">Fátima Évora (IFCH/Unicamp)</div>
@@ -778,7 +774,7 @@
         <div class="pl-6">
           <div class="mb-4">
             
-            <span class="text-slate-400">Coordernado por</span>
+            <span class="text-slate-400">Coordenado por</span>
              Márcio Barreto (ICHSA/Unicamp)
           </div>
           
@@ -810,6 +806,10 @@
             </div>
             
             <div class="mb-1">Marcelo Papoti (USP)</div>
+            
+            <div class="mb-1">Fulvia de Barros Machado-Gobatto (Unicamp)</div>
+            
+            <div class="mb-1">Claudio Alexandre Gobatto (Unicamp)</div>
             
           </div>
 
