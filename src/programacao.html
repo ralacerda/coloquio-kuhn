@@ -32,8 +32,14 @@ title: Programação
           </div>
           {% for palestra in evento.palestras %}
           <div class="mb-8">
-            <div class="text-2xl font-medium mb-2 text-gray-700">
-              {{palestra.titulo}}
+            <div class="text-2xl font-medium mb-2 text-gray-700 relative">
+              {{palestra.titulo}} {% if palestra.aConfirmar%}
+              <span
+                class="ml-1 text-xs bg-green rounded-md text-kuhn-white py-0.5 px-2 absolute"
+              >
+                A confirmar
+              </span>
+              {% endif%}
             </div>
             {% for autor in palestra.autores%}
             <div class="mb-1">{{autor}}</div>
