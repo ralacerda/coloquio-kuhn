@@ -264,7 +264,7 @@
     @click="window.scrollTo({top: 0, behavior: 'smooth'})"
     @scroll.window="document.documentElement.scrollTop > 320 ? scroll = true : scroll = false"
     type="button"
-    class="p-3 text-kuhn-white fixed bottom-5 right-5 rounded-md bg-green shadow-md transition duration-700 ease-in-out"
+    class="p-3 text-kuhn-white fixed bottom-5 right-5 rounded-md bg-green shadow-md transition duration-700 ease-in-out z-50"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -339,207 +339,127 @@
     Convidados confirmados
   </h2>
   <div
-  class="flex flex-wrap justify-around justify-self-center self-start place-items-center text-center"
+  class="flex flex-col lg:flex-wrap lg:flex-row justify-around justify-self-center place-items-top text-center"
 >
   
-  <div class="mx-auto mb-20 justify-items-center self-start">
-    
+  <div class="mx-auto mb-20 px-6 lg:w-1/2">
     <div
       class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
     >
       <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fjGeRpCkIFL-192.webp" width="192" height="192">
     </div>
-    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+    <div class="text-xl font-semibold md:font-bold uppercase mb-2">
+      O papel das comunidades científicas na construção do conceito de informação no século XX 
+    </div>
+    <div class="text-xl font-medium mx-auto text-slate-600">
       Cibelle Celestino Silva
     </div>
-    <div class="text-lg md:text-xl mb-3">USP São Carlos</div>
-    
-    <a href="http://lattes.cnpq.br/8975592323807707" target="_blank">
-    <button
-    type="button"
-    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
-  >
-    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
-
-
-  </button>
-  </a>
-     
+    <div class="text-lg mb-3 text-slate-400">USP São Carlos</div>
   </div>
   
-  <div class="mx-auto mb-20 justify-items-center self-start">
-    
+  <div class="mx-auto mb-20 px-6 lg:w-1/2">
     <div
       class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
     >
       <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fkMG8o7zNO8-192.webp" width="192" height="192">
     </div>
-    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+    <div class="text-xl font-semibold md:font-bold uppercase mb-2">
+      Kuhn e a crise na astronomia quinhentista
+    </div>
+    <div class="text-xl font-medium mx-auto text-slate-600">
       Fátima Regina Rodrigues Évora
     </div>
-    <div class="text-lg md:text-xl mb-3">IFCH/Unicamp</div>
-    
-    <a href="http://lattes.cnpq.br/4719378717808783" target="_blank">
-    <button
-    type="button"
-    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
-  >
-    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
-
-
-  </button>
-  </a>
-     
+    <div class="text-lg mb-3 text-slate-400">IFCH/Unicamp</div>
   </div>
   
-  <div class="mx-auto mb-20 justify-items-center self-start">
-    
+  <div class="mx-auto mb-20 px-6 lg:w-1/2">
     <div
       class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
     >
       <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f_mRobvxSSl-192.webp" width="192" height="192">
     </div>
-    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+    <div class="text-xl font-semibold md:font-bold uppercase mb-2">
+      Seria Thomas Kuhn um hermeneuta? 
+    </div>
+    <div class="text-xl font-medium mx-auto text-slate-600">
       Gustavo Silvano Batista
     </div>
-    <div class="text-lg md:text-xl mb-3">PPGFIL/UFPI</div>
-    
-    <a href="http://lattes.cnpq.br/8899510748810172" target="_blank">
-    <button
-    type="button"
-    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
-  >
-    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
-
-
-  </button>
-  </a>
-     
+    <div class="text-lg mb-3 text-slate-400">PPGFIL/UFPI</div>
   </div>
   
-  <div class="mx-auto mb-20 justify-items-center self-start">
-    
+  <div class="mx-auto mb-20 px-6 lg:w-1/2">
     <div
       class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
     >
       <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fO_IOpzkwHw-192.webp" width="192" height="192">
     </div>
-    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+    <div class="text-xl font-semibold md:font-bold uppercase mb-2">
+      O legado de Kuhn para a historiografia da ciência 
+    </div>
+    <div class="text-xl font-medium mx-auto text-slate-600">
       Mauro Lúcio Leitão Condé
     </div>
-    <div class="text-lg md:text-xl mb-3">UFMG</div>
-    
-    <a href="http://lattes.cnpq.br/9430414176663318" target="_blank">
-    <button
-    type="button"
-    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
-  >
-    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
-
-
-  </button>
-  </a>
-     
+    <div class="text-lg mb-3 text-slate-400">UFMG</div>
   </div>
   
-  <div class="mx-auto mb-20 justify-items-center self-start">
-    
+  <div class="mx-auto mb-20 px-6 lg:w-1/2">
     <div
       class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
     >
       <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fQ4vpPWDZxJ-192.webp" width="192" height="192">
     </div>
-    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+    <div class="text-xl font-semibold md:font-bold uppercase mb-2">
+      Os usos da história 
+    </div>
+    <div class="text-xl font-medium mx-auto text-slate-600">
       Paulo Pirozelli
     </div>
-    <div class="text-lg md:text-xl mb-3">IEA/USP</div>
-    
-    <a href="http://lattes.cnpq.br/3711621404696226" target="_blank">
-    <button
-    type="button"
-    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
-  >
-    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
-
-
-  </button>
-  </a>
-     
+    <div class="text-lg mb-3 text-slate-400">IEA/USP</div>
   </div>
   
-  <div class="mx-auto mb-20 justify-items-center self-start">
-    
+  <div class="mx-auto mb-20 px-6 lg:w-1/2">
     <div
       class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
     >
       <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/ffJWYeuG6fn-192.webp" width="192" height="192">
     </div>
-    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+    <div class="text-xl font-semibold md:font-bold uppercase mb-2">
+      A trajetória da física para as humanidades e uma pergunta final 
+    </div>
+    <div class="text-xl font-medium mx-auto text-slate-600">
       Peter Alexander Bleinroth Schulz
     </div>
-    <div class="text-lg md:text-xl mb-3">ICHSA/Unicamp</div>
-    
-    <a href="http://lattes.cnpq.br/6073974259027393" target="_blank">
-    <button
-    type="button"
-    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
-  >
-    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
-
-
-  </button>
-  </a>
-     
+    <div class="text-lg mb-3 text-slate-400">ICHSA/Unicamp</div>
   </div>
   
-  <div class="mx-auto mb-20 justify-items-center self-start">
-    
+  <div class="mx-auto mb-20 px-6 lg:w-1/2">
     <div
       class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
     >
       <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fgJwjdSIdqq-192.webp" width="192" height="192">
     </div>
-    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+    <div class="text-xl font-semibold md:font-bold uppercase mb-2">
+      Relativismo ou pragmatismo nas controvérsias científicas kuhnianas? 
+    </div>
+    <div class="text-xl font-medium mx-auto text-slate-600">
       Robinson Guitarrari
     </div>
-    <div class="text-lg md:text-xl mb-3">PPGFIL/UFRRJ</div>
-    
-    <a href="http://lattes.cnpq.br/3649125210518429" target="_blank">
-    <button
-    type="button"
-    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
-  >
-    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
-
-
-  </button>
-  </a>
-     
+    <div class="text-lg mb-3 text-slate-400">PPGFIL/UFRRJ</div>
   </div>
   
-  <div class="mx-auto mb-20 justify-items-center self-start">
-    
+  <div class="mx-auto mb-20 px-6 lg:w-1/2">
     <div
       class="rounded-full w-48 h-48 mb-6 ring-2 ring-slate-400 mx-auto shadow-lg overflow-clip"
     >
       <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fz6z_uL-Jj1-192.webp" width="192" height="192">
     </div>
-    <div class="text-xl md:text-2xl font-bold w-64 mx-auto">
+    <div class="text-xl font-semibold md:font-bold uppercase mb-2">
+      Kuhn epistemólogo 
+    </div>
+    <div class="text-xl font-medium mx-auto text-slate-600">
       Silvio Seno Chibeni
     </div>
-    <div class="text-lg md:text-xl mb-3">IFCH/Unicamp</div>
-    
-    <a href="http://lattes.cnpq.br/3692309119853016" target="_blank">
-    <button
-    type="button"
-    class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
-  >
-    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/lattes.svg" />
-
-
-  </button>
-  </a>
-     
+    <div class="text-lg mb-3 text-slate-400">IFCH/Unicamp</div>
   </div>
   
 </div>
