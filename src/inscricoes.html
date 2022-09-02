@@ -3,13 +3,35 @@ layout: base
 title: Inscrições
 ---
 
-<section class="container">
+<section class="container mb-16">
   {% title "Inscrições" %}
 
-  <div class="text-lg text-justify leading-relaxed mt-4 space-y-4">
-    <p>
-      As inscrições para o evento são gratuitas e dão direito a certificado.
-    </p>
-    <p>Inscrições para ouvintes começam em <b>01 de Setembro</b>.</p>
+  <div class="text-lg text-center lg:text-left leading-relaxed space-y-4">
+    <div>
+      As inscrições para participação do evento são gratuitas e podem ser
+      realizadas pelo Formulário de Inscrição no link abaixo.
+    </div>
+    <div>
+      O evento acontecerá presencialmente na
+      <span class="font-medium"
+        >Faculdade de Ciências Aplicadas de Campinas - UNICAMP,</span
+      >
+      entre os dias 29 e 30 de Setembro de 2022.
+    </div>
+    <div>
+      Ouvintes com 75% de presença terão direito a um certificado de
+      participação.
+    </div>
+  </div>
+
+  <div class="mx-auto w-fit mt-16">
+    <a
+      class="bg-green hover:bg-hover rounded-md px-4 py-2 text-xl text-kuhn-white"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSdZKebc4cYhabnMUoMIUSI93opMefdHROJYlW8BULd09zczxg/viewform"
+      target="_blank"
+      >Formulário de Inscrição</a
+    >
   </div>
 </section>
+
+<section class="container">{% include 'localizacao.html' %}</section>
