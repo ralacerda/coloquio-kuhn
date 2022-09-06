@@ -76,7 +76,7 @@ module.exports = [
     ],
   },
   {
-    nome: "Quinta-feira, 30 de Setembro",
+    nome: "Sexta-feira, 30 de Setembro",
     eventos: [
       {
         horario: "08:00",
