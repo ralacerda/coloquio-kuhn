@@ -88,6 +88,14 @@ module.exports = [
             titulo: "A tradução na Filosofia de Thomas Kuhn",
             autores: ["Francidilso Silva do Nascimento (UFPI)"],
           },
+
+          {
+            titulo: "Imagens, anomalias e revoluções: Farewell to Big Bang",
+            autores: [
+              "Marcos Cesar Danhoni Neves (UEM)",
+              "Josie Agatha Parrilha da Silva (UEPG)",
+            ],
+          },
         ],
       },
 
@@ -144,13 +152,6 @@ module.exports = [
         titulo: "Repercussões kuhnianas nas ciências II",
         coord: "Márcio Barreto (ICHSA/Unicamp)",
         palestras: [
-          {
-            titulo: "Imagens, anomalias e revoluções: Farewell to Big Bang",
-            autores: [
-              "Marcos Cesar Danhoni Neves (UEM)",
-              "Josie Agatha Parrilha da Silva (UEPG)",
-            ],
-          },
           {
             titulo:
               "Em busca da luz: uma análise kuhniana da óptica pré-newtoniana",
