@@ -1,12 +1,5 @@
 module.exports = [
   {
-    titulo: "A estrutura das revoluções científicas e o ensino de ciências",
-    autores: [
-      "John Lucas Alves Fernandes da Silva (Unifesp)",
-      "Denilson Soares Cordeiro",
-    ],
-  },
-  {
     titulo: "A tradução na Filosofia de Thomas Kuhn",
     autores: ["Francidilso Silva do Nascimento (UFPI)"],
   },
