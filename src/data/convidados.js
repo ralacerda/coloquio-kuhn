@@ -1,7 +1,7 @@
 module.exports = [
   {
     nome: "Cibelle Celestino Silva",
-    departamento: "USP São Carlos",
+    departamento: "USP São Carlos/IFSC",
     palestra:
       "O papel das comunidades científicas na construção do conceito de informação no século XX ",
     foto: "/img/fotos/cibelle.jpeg",

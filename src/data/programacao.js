@@ -134,7 +134,7 @@ module.exports = [
           {
             titulo:
               "O papel das comunidades científicas na construção do conceito de informação no século XX",
-            autores: ["Cibelle Celestino Silva (UFSCar)"],
+            autores: ["Cibelle Celestino Silva (USP São Carlos/IFSC)"],
           },
           {
             titulo: "Kuhn e a crise na astronomia quinhentista",
