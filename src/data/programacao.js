@@ -30,7 +30,7 @@ module.exports = [
         horario: "14:00",
         nome: "Mesa 1",
         titulo: "O pensamento de Kuhn na filosofia da ciência hoje",
-        coord: "Eduardo Marandola Jr. (ICHSA/Unicamp)",
+        coord: "Gustavo Silvano Batista (UFPI)",
         palestras: [
           {
             titulo: "O legado de Kuhn para a historiografia da ciência",
@@ -79,7 +79,7 @@ module.exports = [
     nome: "Sexta-feira, 30 de Setembro",
     eventos: [
       {
-        horario: "08:00",
+        horario: "08:30",
         nome: "Sessão temática 2",
         titulo: "Repercussões kuhnianas nas ciências I",
         coord: "Sandra Francisca Bezerra Gemma (ICHSA/Unicamp)",
@@ -100,20 +100,15 @@ module.exports = [
       },
 
       {
-        horario: "09:00",
+        horario: "09:30",
         nome: "Intervalo",
       },
       {
-        horario: "09:15",
+        horario: "10:00",
         nome: "Mesa 2",
         titulo: "Filosofia de Thomas Kuhn",
-        coord: "Mauro Cardoso Simões (ICHSA/Unicamp)",
+        coord: "Eduardo Marandola Jr. (ICHSA/Unicamp)",
         palestras: [
-          {
-            titulo:
-              "Relativismo ou pragmatismo nas controvérsias científicas kuhnianas?",
-            autores: ["Robinson Guitarrari (UFRRJ)"],
-          },
           { titulo: "Os usos da história", autores: ["Paulo Pirozelli (USP)"] },
           {
             titulo: "Seria Thomas Kuhn um hermeneuta?",
@@ -122,7 +117,7 @@ module.exports = [
         ],
       },
       {
-        horario: "12:15",
+        horario: "12:00",
         nome: "Almoço",
       },
       {
@@ -133,12 +128,13 @@ module.exports = [
         palestras: [
           {
             titulo:
-              "O papel das comunidades científicas na construção do conceito de informação no século XX",
-            autores: ["Cibelle Celestino Silva (USP São Carlos/IFSC)"],
+              "Relativismo ou pragmatismo nas controvérsias científicas kuhnianas?",
+            autores: ["Robinson Guitarrari (UFRRJ)"],
           },
           {
-            titulo: "Kuhn e a crise na astronomia quinhentista",
-            autores: ["Fátima Évora (IFCH/Unicamp)"],
+            titulo:
+              "O papel das comunidades científicas na construção do conceito de informação no século XX",
+            autores: ["Cibelle Celestino Silva (USP São Carlos/IFSC)"],
           },
         ],
       },
@@ -169,7 +165,7 @@ module.exports = [
         ],
       },
       {
-        horario: "18:00",
+        horario: "17:30",
         nome: "Encerramento",
       },
     ],
