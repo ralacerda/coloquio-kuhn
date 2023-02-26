@@ -79,12 +79,9 @@
 
   <script src="/coloquio-kuhn/alpine.js" defer></script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
-    rel="stylesheet"
-  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 
 
@@ -108,6 +105,7 @@
       <button
         class="border-stone-300 border rounded-md lg:hidden opacity-50 hover:opacity-100 py-1 px-2"
         @click="isOpen = !isOpen"
+        role="menubar"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -304,12 +302,12 @@
   <h2>
     <div>
       <div
-        class="leading-tight text-xl lg:text-2xl font-medium py-1 text-center"
+        class="leading-tight text-xl lg:text-2xl font-normal py-1 text-center"
       >
         60 anos da obra “A Estrutura das Revoluções Científicas
       </div>
       <div
-        class="leading-tight text-xl lg:text-2xl font-medium py-1 text-center mb-8"
+        class="leading-tight text-xl lg:text-2xl font-normal py-1 text-center mb-8"
       >
         100 anos de nascimento de Thomas Kuhn
       </div>
@@ -361,12 +359,12 @@
   </div>
 </section>
 
-<section class="container mb-12"><h2 class="text-2xl md:text-2xl font-medium mb-3">Local do Evento</h2>
+<section class="container mb-12"><h2 class="text-2xl md:text-2xl font-normal mb-3">Local do Evento</h2>
 <div class="text-lg space-y-1 mb-8">
-  <div class="font-medium">
+  <div class="font-normal">
     Faculdade de Ciências Aplicadas - Universidade de Campinas
   </div>
-  <div class="font-medium">Sala UL01</div>
+  <div class="font-normal">Sala UL01</div>
   <div>R. Pedro Zaccaria, 1300 - Limeira, São Paulo</div>
   <div>13484-350</div>
 </div>
@@ -386,7 +384,7 @@
 </section>
 <section class="container mb-12"><div class="mb-12">
   <div class="mb-2">
-    <h3 class="text-2xl mb-2 font-medium">Realização</h3>
+    <h3 class="text-2xl mb-2 font-normal">Realização</h3>
     <div>
       <strong>ICHSA</strong> – Programa de Pós-Graduação Interdisciplinar em
       Ciências Humanas e Sociais Aplicadas (Unicamp)
@@ -396,7 +394,7 @@
     </div>
   </div>
   <div class="mb-2">
-    <h3 class="text-2xl font-medium mb-2">Apoio</h3>
+    <h3 class="text-2xl font-normal mb-2">Apoio</h3>
     <p>
       <strong>NOMEAR</strong> – Grupo de Pesquisa Fenomenologia e Geografia
       <br />
@@ -482,25 +480,25 @@
   <footer><div
   class="flex flex-wrap justify-between justify-items-center mx-auto container py-7 place-items-center"
 >
-  <div class="flex justify-center my-3 mx-4">
+  <div class="flex justify-center my-3 mx-4 gap-4">
     
-    <a href="https://www.youtube.com/c/FaculdadedeCi%C3%AAnciasAplicadasUnicamp" target="_blank" class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
-  >
-    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/youtube.svg" alt=""/>
+    <a href="https://www.youtube.com/c/FaculdadedeCi%C3%AAnciasAplicadasUnicamp" target="_blank" class="p-3 block w-fit mx-auto hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  title="youtube">
+    <img class="w-8 h-8 inline" src="/coloquio-kuhn/img/icons/youtube.svg" alt=""/>
 
 
   </a>
      
-    <a href="https://www.instagram.com/ichsa_unicamp/" target="_blank" class="p-3 mx-3  hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
-  >
-    <img class="w-8 h-8" src="/coloquio-kuhn/img/icons/instagram.svg" alt=""/>
+    <a href="https://www.instagram.com/ichsa_unicamp/" target="_blank" class="p-3 block w-fit mx-auto hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  title="instagram">
+    <img class="w-8 h-8 inline" src="/coloquio-kuhn/img/icons/instagram.svg" alt=""/>
 
 
   </a>
     
   </div>
   <div class="my-3 mx-4">
-    <p class="text-2xl font-medium">Contato</p>
+    <p class="text-2xl font-normal">Contato</p>
     <p>Para mais informações, envie um e-mail para:</p>
     <a href="mailto:eventos.ichsa@gmail.com" class="text-green"
       >eventos.ichsa@gmail.com</a
