@@ -24,7 +24,7 @@ module.exports = [
     url: "/programacao",
   },
   {
-    title: "Imagens",
+    title: "Galeria de Fotos",
     url: "/imagens",
   },
 ];
