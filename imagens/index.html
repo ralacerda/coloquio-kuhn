@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+  <title>
+    Colóquio Thomas Kuhn   · Programação 
+  </title>
+
+  <meta name="title" content="Colóquio Thomas Kuhn" />
+  <meta
+    name="description"
+    content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+  />
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+  />
+
+  <link rel="icon" href="/coloquio-kuhn/favicon.ico" sizes="any" />
+<!-- 32×32 -->
+<link rel="icon" href="/coloquio-kuhn/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/coloquio-kuhn/favicon.png" />
+<!-- 180×180 -->
+<link rel="manifest" href="/coloquio-kuhn/manifest.webmanifest" />
+ <!-- Created by metatag.io -->
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ralacerda.github.io/coloquio-kuhn/" />
+<meta property="og:title" content="Colóquio Thomas Kuhn" />
+<meta
+  property="og:description"
+  content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+/>
+<meta
+  property="og:image"
+  content="https://raw.githubusercontent.com/ralacerda/coloquio-kuhn/gh-pages/social_media.png"
+/>
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+
+<!-- Whatsapp -->
+<meta
+  property="og:image"
+  content="https://raw.githubusercontent.com/ralacerda/coloquio-kuhn/gh-pages/social_media_small.png"
+/>
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="256" />
+<meta property="og:image:height" content="256" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta
+  property="twitter:url"
+  content="https://ralacerda.github.io/coloquio-kuhn/"
+/>
+<meta property="twitter:title" content="Colóquio Thomas Kuhn" />
+<meta
+  property="twitter:description"
+  content="Colóquio realizado em honra do aniversário de 100 anos de Thomas Kuhn, que marcou a filosofia com o conceito de “paradigma” e a tese da incomensurabilidade"
+/>
+<meta
+  property="twitter:image"
+  content="https://raw.githubusercontent.com/ralacerda/coloquio-kuhn/gh-pages/social_media_small.png"
+/>
+<meta property="twitter:type" content="image/png" />
+<meta property="twitter:width" content="1200" />
+<meta property="twitter:height" content="628" />
+
+
+  <link rel="stylesheet" href="/coloquio-kuhn/style.css" />
+  <script
+    defer
+    src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"
+  ></script>
+
+  <script src="/coloquio-kuhn/alpine.js" defer></script>
+</head>
+
+
+  <body class="bg-kuhn-white min-h-screen flex flex-col">
+    <nav>
+  <div
+    x-data="{ isOpen: false }"
+    class="container flex flex-col lg:flex-row justify-between"
+  >
+    <div class="flex justify-between place-items-center h-[72px]">
+      <a
+        class="text-xl"
+        href="
+      
+      /coloquio-kuhn/
+      "
+      >
+        Colóquio Thomas Kuhn
+      </a>
+
+      <button
+        class="border-stone-300 border rounded-md lg:hidden opacity-50 hover:opacity-100 py-1 px-2"
+        @click="isOpen = !isOpen"
+        aria-label="Abrir menu de navegação"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-6 h-6 sm:w-8 sm:h-8 lg:hidden"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+    </div>
+    <ul class="hidden lg:flex lg:flex-row place-items-center">
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/sobre
+        "
+          class="opacity-70 hover:opacity-100"
+          >Sobre</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/convidados
+        "
+          class="opacity-70 hover:opacity-100"
+          >Convidados</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/datas
+        "
+          class="opacity-70 hover:opacity-100"
+          >Datas</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/trabalhos
+        "
+          class="opacity-70 hover:opacity-100"
+          >Trabalhos</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/inscricoes
+        "
+          class="opacity-70 hover:opacity-100"
+          >Inscrições</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+          #
+          "
+          class="opacity-70 hover:opacity-100"
+          >Programação</a
+        >
+      </li>
+      
+      <li class="px-2">
+        <a
+          href="
+          
+        /coloquio-kuhn/imagens
+        "
+          class="opacity-70 hover:opacity-100"
+          >Galeria de Fotos</a
+        >
+      </li>
+      
+    </ul>
+    <ul
+      class="flex flex-col lg:hidden lg:px-16"
+      x-show="isOpen"
+      @click.away="isOpen = false"
+      x-collapse.duration.600ms
+      x-cloak
+    >
+      
+      <li class="text py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/sobre
+          "
+          class="opacity-50 hover:opacity-100"
+          >Sobre</a
+        >
+      </li>
+      
+      <li class="text py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/convidados
+          "
+          class="opacity-50 hover:opacity-100"
+          >Convidados</a
+        >
+      </li>
+      
+      <li class="text py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/datas
+          "
+          class="opacity-50 hover:opacity-100"
+          >Datas</a
+        >
+      </li>
+      
+      <li class="text py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/trabalhos
+          "
+          class="opacity-50 hover:opacity-100"
+          >Trabalhos</a
+        >
+      </li>
+      
+      <li class="text py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/inscricoes
+          "
+          class="opacity-50 hover:opacity-100"
+          >Inscrições</a
+        >
+      </li>
+      
+      <li class="text py-2 px-4">
+        <a
+          href="
+          #
+          "
+          class="opacity-50 hover:opacity-100"
+          >Programação</a
+        >
+      </li>
+      
+      <li class="text py-2 px-4">
+        <a
+          href="
+          /coloquio-kuhn/imagens
+          "
+          class="opacity-50 hover:opacity-100"
+          >Galeria de Fotos</a
+        >
+      </li>
+      
+    </ul>
+  </div>
+
+  <button
+    x-cloak
+    x-transition.opacity
+    x-data="{scroll : false}"
+    x-show="scroll"
+    @click="window.scrollTo({top: 0, behavior: 'smooth'})"
+    @touchstart.passive.window
+    @scroll.window="document.documentElement.scrollTop > 320 ? scroll = true : scroll = false"
+    type="button"
+    aria-label="show menu bar"
+    class="p-3 text-kuhn-white fixed bottom-5 right-5 rounded-md bg-green shadow-md transition duration-700 ease-in-out z-50"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="7"
+      stroke="currentColor"
+      class="w-3 h-3"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M4.5 15.75l7.5-7.5 7.5 7.5"
+      />
+    </svg>
+  </button>
+</nav>
+
+    <div class="flex-grow">
+<section class="container">
+  
+  <h1 class="text-3xl md:text-3xl font-bold text-center mb-12 mt-12 uppercase">
+  Galeria de Fotos
+  </h1>
+  
+  <div class="mx-auto flex flex-wrap gap-4 justify-center">
+    
+    <button data-photo="1">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/ftmK_uPm7YK-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="2">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fnINYPAeLol-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="3">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f18DUWnkpjD-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="4">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fjGYSG_tyjk-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="5">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fiuFRbOsGmx-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="6">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fJZdPqIImIO-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="7">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fMOpjRTCa5Q-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="8">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fDKIbxoXhL9-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="9">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fbXx1k5aMUV-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="10">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fp_ICzEm2Og-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="11">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fF1it3mttjK-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="12">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f2F6WBIH_YU-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="13">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fsGuy6k8dtl-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="14">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/frtPPGHLjEB-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="15">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fOvwtaGZDA0-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="16">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f7xQiImVRC1-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="17">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fd1iiM-q-w_-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="18">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f1lJrmB8bUJ-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="19">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fqdGANDcOx1-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="20">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fyZVXfBBQ5Y-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="21">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fHdi4XRlAkg-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="22">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fEFlEkb_xWj-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="23">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fm9okQTRd4B-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="24">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fylZ1DyjG_U-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="25">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fZPVxwsovLm-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="26">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fnJBalrsv6u-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="27">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fDmX3bh4YRI-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="28">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fhR3yVo8w9H-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="29">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fvooUvNBFZu-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="30">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fHI4tcRETP6-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="31">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fC-8WmZ_9Cg-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="32">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fvqdFSYvOim-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="33">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f2ETDQFxYzK-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="34">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fdhdca0FOyk-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="35">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fIyiQcOWEyG-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="36">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fMybmtdnV7l-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="37">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fDw9CULlWmd-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="38">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fnbJatPp6ej-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="39">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/ferE6iGTABl-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="40">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fy-JnIxnLX5-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="41">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f7p6UsFxn4H-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="42">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fWH0fW7djVR-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="43">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f8tRvBiMeiX-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="44">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fqCrsg43oJJ-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="45">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fh2mr8bP8u9-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="46">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fe20HdaFH-_-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="47">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fngod09R6Va-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="48">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/flRHkk68lyd-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="49">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fHI1lL99L-A-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="50">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f8lJckDXgbW-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="51">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fTvqzml8BjE-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="52">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fnOhE5VY0z1-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="53">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fUxPlxwuk8P-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="54">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fzMhzPALZTI-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="55">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fdq9__H6rwo-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="56">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fj-mqku6zfe-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="57">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fd4Sy1jqfNi-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="58">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fxPg-zbJt9v-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="59">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fqGsJNNR0QO-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="60">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f4UD5-CxHnX-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="61">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fTJwMZFOCnq-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="62">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fX8VrMsChuX-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="63">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fSzgYW0Y_CY-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="64">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fGRb6kQWq1a-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="65">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fIYj_alWCGZ-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="66">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fqS9Ga1iioT-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="67">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fSW5fTkGiF8-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="68">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f--t5Wo4xl4-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="69">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f3OShWGvDbi-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="70">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fO9Ni4nymcG-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="71">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fTk6kQKtfiG-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="72">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f6q_of05hrt-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="73">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fYvY7wm7Rvw-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="74">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fAYmxmlo4FV-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="75">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f6RbDPQPgEJ-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="76">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fO9PaMNyF7c-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="77">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fWMAXPfueD8-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="78">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fdc2n-oPnQM-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="79">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fCawztw-dsI-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="80">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fgOETckcc3D-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="81">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fMAdU4_05sZ-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="82">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fRzVvW1VgXI-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="83">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fqx9v2QPsne-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="84">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fTx-DHi1nWe-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="85">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fzqhU34cm8Z-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="86">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fAfAF-LDbag-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="87">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fTjBPhhBWX0-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="88">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fRQAy6ym2C4-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="89">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f95dylo1iDO-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="90">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f6IBPuILMpo-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="91">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fN8upwVr-L8-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="92">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fGh1tG_8fjq-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="93">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f53RvVb7_lZ-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="94">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/ffu5-jXeW1t-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="95">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fGELJtC-0T6-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="96">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fBioQXRfYXH-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="97">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fT4yaH5WVLy-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="98">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fJ5pfhPwvTG-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="99">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fLGIVknOdPo-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="100">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/flwmC1BLXm3-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="101">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fgbBcUkfWWr-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="102">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fXeuvVVx8pb-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="103">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fVZMBXtzdh_-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="104">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fLcAeJY_y_a-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="105">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/frQXOXST12A-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="106">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/foTXyI6SB-i-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="107">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fZf__YBQuNn-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="108">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f_LfXuv1Et--192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="109">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fpJJYY3Rvzm-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="110">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fe3leXKxzW7-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="111">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fjAuynF0Mos-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="112">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fPGnTOn2e3x-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="113">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fOr1D6sSn53-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="114">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f514hUwP6hc-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="115">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fA7FrfysfT4-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="116">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fYXQLdSfc1y-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="117">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fyAgGbJ_X9x-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="118">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fccePoNYEkq-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="119">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fb8i3-ePxrE-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="120">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fS-b7_1Vz7F-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="121">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/ftsejuiP1qu-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="122">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fKVJTHSp4uf-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="123">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fx8JVCVBBpu-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="124">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fw8Jc7lnIa2-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="125">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fdJOCSuJIFg-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="126">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fgwjJ3JWtRt-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="127">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fKraTooswqm-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="128">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fsoOBBThUhU-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="129">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fGcmq7wbEhu-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="130">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fKM1YymkjfH-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="131">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fuy_pVRi5Pq-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="132">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fmEhdokRGjq-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="133">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fKmu_gQJZf0-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="134">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fEyAOcPRUtZ-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="135">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fVaCaYyyeiL-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="136">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fzzY13qSk-y-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="137">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fjoVkyIY5Lc-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="138">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fbOLjVYtzTd-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="139">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fS0PZXFjkL9-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="140">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/ft5LQTg_6Fm-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="141">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fwNyLNGUbVv-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="142">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fcSeCBwU5Gc-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="143">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f1SBYQoINDp-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="144">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fWZDP7NVO0k-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="145">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f2pwVDbDSnd-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="146">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fClPdD353l0-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="147">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fBiqJJ6eMQJ-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="148">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f7v6TleHCNC-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="149">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fiNKqBcPmYG-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="150">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f7gOYZt7jft-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="151">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fE_s9Y-Rrp9-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="152">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fYUXTR-wM7B-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="153">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/ffw3PIfwEIS-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="154">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fqQcoriaTjK-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="155">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f3j1Z0Z6KL1-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="156">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fGWXb5h7CC4-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="157">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fQhi9sXbzS7-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="158">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/faNBhXfPGRX-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="159">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fCExTCpVgKg-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="160">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fVBspMV6xux-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="161">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fO6jv4A63Ah-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="162">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fMPomZh36My-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="163">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f3dU5W6e8Gw-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="164">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fMGai1Y4fhl-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="165">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f9gPrNZ1T89-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="166">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fRVa3_KR9NU-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="167">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f2OGEzVSFi1-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="168">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fgmDKJ3J0hZ-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="169">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fvt8yqHztt--192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="170">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fknf43JS8DR-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="171">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fngfSHbMbpo-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="172">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fFT7DMwyis--192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="173">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fnEdGxgLa3X-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="174">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fmgAz3iaxvA-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="175">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fZXrhkds3FA-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="176">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fWaUIXl_FQ4-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="177">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fAEAI9TUy4g-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="178">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fmi4qrukjQT-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="179">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/ffFJjw3l2up-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="180">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f582J2tmbWh-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="181">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fytTMGPygvt-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="182">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fu2a2Kj-5CO-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="183">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fRUZPfAHPxt-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="184">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fop6Uq4u-x4-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="185">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f6Ctt9s8VWv-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="186">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fA9O0SIb6vs-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="187">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f1yQ8RDxSVt-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="188">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fWUuJIl6X9--192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="189">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fY-2e_Hu-Yv-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="190">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fp2N_SV5Gty-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="191">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/ficmejM2R8f-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="192">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fLgmHxicFl4-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="193">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f3w1shkSAsY-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="194">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fzGOdJXmz2H-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="195">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fmIlbtiPWwn-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="196">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/f48ykkKxv9T-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="197">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fyOt2xCswnL-192.webp" width="192" height="127">
+    </button>
+    
+    <button data-photo="198">
+      <img alt="" loading="lazy" decoding="async" src="/coloquio-kuhn/img/fU_HBw3buRu-192.webp" width="192" height="127">
+    </button>
+    
+  </div>
+
+  <dialog id="modal">
+    <button data-control="next">→</button>
+    <img id="modalImg" />
+    <button data-control="previous">←</button>
+    <button data-control="close">✖</button>
+  </dialog>
+</section>
+
+<style>
+  #modal img {
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+    display: block;
+  }
+
+  #modal {
+    width: min(85%, 1200px);
+    background: hsla(0, 0%, 0%, 0.5);
+  }
+
+  #modal::backdrop {
+    background: hsla(0, 0%, 0%, 0.5);
+  }
+
+  #modal [data-control] {
+    position: absolute;
+    font-size: 2rem;
+    padding: 0.4rem 1rem;
+    font-weight: bold;
+    background: hsla(0, 0%, 100%, 0.5);
+    display: grid;
+    place-content: center;
+  }
+
+  [data-control="next"] {
+    right: 1rem;
+    top: 50%;
+  }
+
+  [data-control="previous"] {
+    left: 1rem;
+    top: 50%;
+  }
+
+  [data-control="close"] {
+    right: 1rem;
+    top: 1rem;
+    padding: 0.4rem 1rem;
+  }
+
+  dialog {
+    overflow: auto;
+    overscroll-behavior: contain;
+    padding: 0;
+  }
+</style>
+
+<script>
+  const photoButtonList = document.querySelectorAll("[data-photo]");
+  const controlButtonList = document.querySelectorAll("[data-control]");
+  const photo = document.querySelector("#modalImg");
+  const dialog = document.querySelector("#modal");
+  let currentPhoto = 0;
+
+  function changePhoto(number) {
+    photo.src = "";
+
+    currentPhoto = number;
+
+    if (number >= 200) {
+      currentPhoto = 1;
+    }
+
+    if (number <= 0) {
+      currentPhoto = 199;
+    }
+
+    photo.src = `/coloquio-kuhn/fotos/fotos-coloquio-kuhn-${currentPhoto}.webp`;
+  }
+
+  photoButtonList.forEach((button) => {
+    button.addEventListener("click", () => {
+      changePhoto(button.dataset.photo);
+      dialog.showModal();
+    });
+  });
+
+  controlButtonList.forEach((button) => {
+    button.addEventListener("click", () => {
+      if (button.dataset.control == "next") {
+        changePhoto(+currentPhoto + 1);
+      } else if (button.dataset.control == "previous") {
+        changePhoto(currentPhoto - 1);
+      } else {
+        dialog.close();
+        photo.src = "";
+      }
+    });
+  });
+</script>
+</div>
+  </body>
+
+  <footer><div
+  class="flex flex-wrap justify-between justify-items-center mx-auto container py-7 place-items-center"
+>
+  <div class="flex justify-center my-3 mx-4 gap-4">
+    
+    <a href="https://www.youtube.com/c/FaculdadedeCi%C3%AAnciasAplicadasUnicamp" target="_blank" class="p-3 block w-fit mx-auto hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8 inline" src="/coloquio-kuhn/img/icons/youtube.svg" alt="Link para youtube"/>
+
+
+  </a>
+     
+    <a href="https://www.instagram.com/ichsa_unicamp/" target="_blank" class="p-3 block w-fit mx-auto hover:bg-hover leading-tight rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-green"
+  >
+    <img class="w-8 h-8 inline" src="/coloquio-kuhn/img/icons/instagram.svg" alt="Link para instagram"/>
+
+
+  </a>
+    
+  </div>
+  <div class="my-3 mx-4">
+    <p class="text-2xl font-normal">Contato</p>
+    <p>Para mais informações, envie um e-mail para:</p>
+    <a href="mailto:eventos.ichsa@gmail.com" class="text-hover"
+      >eventos.ichsa@gmail.com</a
+    >
+  </div>
+</div>
+<div class="text-center opacity-70 py-2">
+  &copy Copyright 2022 by Eventos ICHSA
+</div>
+</footer>
+</html>
