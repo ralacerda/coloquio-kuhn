@@ -23,4 +23,8 @@ module.exports = [
     title: "Programação",
     url: "/programacao",
   },
+  {
+    title: "Imagens",
+    url: "/imagens",
+  },
 ];
